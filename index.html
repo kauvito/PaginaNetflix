@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+    <!--OWL CSS-->
+    <link rel="stylesheet" href="style/Owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/Owl/owl.theme.default.min.css">
+    <title>MY_NETFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">HOUSE OF CARDS</h3>
+                <p class="descricao">Num drama sobre as consequências do poder e da corrupção, Francis Underwood (Kevin Spacey) está sedento por sucesso e nada o detém. Trata-se de uma história onde são ultrapassados os limites para satisfazer o desejo de um homem que ambiciona governar o mundo.</p>
+                <div class="botoes">
+                    <button class= "botao" role="button" onclick="assitir()">                        
+                        <i class="fas fa-play"></i>
+                        ASSISTIR
+                    </button>
+                    <button class= "botao" role="button" onclick="informacoes()">
+                        <i class="fas fa-info-circle"></i>
+                        INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="carrocel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class= "box-filme" src="img/mini1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class= "box-filme" src="img/mini2.jpg" alt="" >
+            </div> 
+            <div class="item">
+                <img class= "box-filme" src="img/mini3.jpg" alt="" >
+            </div> 
+            <div class="item">
+                <img class= "box-filme" src="img/mini4.jpg" alt="" >
+            </div> 
+            <div class="item">
+                <img class= "box-filme" src="img/mini5.jpg" alt="" >
+            </div> 
+            <div class="item">
+                <img class= "box-filme" src="img/mini6.jpg" alt="" >
+            </div> 
+            <div class="item">
+                <img class= "box-filme" src="img/mini7.jpg" alt="" >
+            </div>   
+            <div class="item">
+                <img class= "box-filme" src="img/mini8.jpg" alt="" >
+            </div> 
+            <div class="item">
+                <img class= "box-filme" src="img/mini9.jpg" alt="" >
+            </div> 
+            <div class="item">
+                <img class= "box-filme" src="img/mini10.jpg" alt="" >
+            </div>          
+        </div>        
+    </div>
+    
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/6547dcbec8.js" crossorigin="anonymous"></script>
+    <!--OWL JS-->
+    <script src="js/Owl/jquery.min.js"></script>
+    <script src="js/Owl/owl.carousel.min.js"></script>
+    <script src="js/Owl/setup.js"></script>
+
+</body>
+<footer>
+    <p class="rodape">Desenvolvido no bootcamp <a href="https://digitalinnovation.one/"> Digital Innovation One</a>  
+        <i class="fas fa-thumbs-up"></i>
+    </p>
+</footer>
+</html>
